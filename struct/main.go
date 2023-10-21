@@ -31,8 +31,9 @@ func main() {
 	}
 	// fmt.Println(geoffrey)
 	// fmt.Printf("%+v", geoffrey)
-	geoffreyPointer := &geoffrey
-	geoffreyPointer.updateName("jeff")
+	// geoffreyPointer := &geoffrey
+	// geoffreyPointer.updateName("jeff")
+	geoffrey.firstName = "Summer"
 	geoffrey.print()
 }
 
